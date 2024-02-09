@@ -1,0 +1,157 @@
+
+.Home{
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: left;
+flex-direction: column;
+background-position: center;
+background-repeat: no-repeat;
+}
+.headerContent{
+
+    width: auto;
+    margin-left: 8%;
+}
+.headerContent h1{
+
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+.headerContent p{
+
+
+padding: 0%;
+font-size: 40px;
+font-weight: lighter;
+
+}
+.headerContent button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #121619;
+   
+}
+
+.headerContent button:hover{
+
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3 ease-in;
+}
+
+
+/* moblie view */
+
+@media screen and (max-width: 912px) {
+   .Home{
+    height: 50vh;
+
+    
+   }
+
+   .headerContent h1{
+
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+.headerContent p{
+
+
+
+font-size: 35px;
+
+
+}
+.headerContent button{
+    
+    font-size: 15px;
+ 
+   
+}
+
+
+  }
+
+  
+@media screen and (max-width: 540px) {
+    .Home{
+   
+        justify-content: center;
+        align-items: center;
+ 
+     
+    }
+ 
+
+
+    .headerContent{
+margin-left: 0%;
+border-radius: 10px;
+width: 90%;
+height: 32vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+background-color: #121619;
+    }
+
+    .headerContent h1{
+ 
+
+     font-size: 40px;
+     height: 30px;
+
+     margin: 15px 0px;
+     color: white;
+ }
+  .headerContent p{
+ 
+ 
+ 
+ font-size: 30px;
+ color: white;
+ 
+ 
+ }
+ .headerContent button{
+     background-color: white;
+     color: #121619;
+     font-size: 15px;
+  
+    
+ } 
+ 
+.headerContent button:hover{
+
+    background-color: wheat;
+    cursor: pointer;
+    transition: 0.3 ease-in;
+}
+
+   }
+
+.foods{
+  text-align: center;
+  padding: 5%;
+}
+.foods h5{
+    font-weight: bold;
+}
+.foods p{
+  color: #666666;
+  line-height: 200%;
+  
+}

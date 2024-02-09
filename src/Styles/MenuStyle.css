@@ -1,0 +1,15 @@
+.menuard{
+
+    width:390px;
+    margin: 1%;
+    margin-top: 3%;
+
+}
+
+.card{
+    /* padding: 1%; */
+  
+justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

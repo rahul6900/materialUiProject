@@ -1,0 +1,32 @@
+.contactbox{
+
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+.contacbox2{
+
+    margin: 3%;
+    width: 50%;
+}
+.contactbox h4{
+
+    
+    font-weight: bold;
+}
+
+.iconstable svg{
+
+    color: red;
+    padding-top: 1%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contacbox2{
+        width: 95%;
+    }
+
+}

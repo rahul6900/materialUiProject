@@ -1,0 +1,14 @@
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.s:hover{
+background-color: white !important;
+}
+
+.MuiOutlinedInput-root.Mui-active {
+    color: red;
+  }

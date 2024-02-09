@@ -1,0 +1,39 @@
+
+.footer{
+
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1%;
+
+    
+    }
+.icons{
+    text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.allright{
+    text-align: center;
+}
+.icons svg{
+
+margin-right: 1%;
+    font-size: 50px;
+    cursor: pointer;
+}
+.icons svg:hover{
+
+color: goldenrod;
+transform: translate(5px);
+transition: all 400ms ease-in-out;
+
+}
+.listn li{
+    list-style: none;
+    margin-top: 3%;
+   
+}
+.listn a{
+    text-decoration: none;
+    color: white;
+}
