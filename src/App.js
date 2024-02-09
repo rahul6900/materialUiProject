@@ -1,6 +1,6 @@
 import React from "react";
 
-import {  HashRouter as Router,Route,Routes} from 'react-router-dom'
+import {  HashRouter ,Route,Routes} from 'react-router-dom'
 import './Styles/App.css'
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -14,7 +14,7 @@ import Menu from "./pages/Menu";
   
 
     <>
-<Router>
+<HashRouter>
 
 <Routes>
 <Route exact path="/" element={<Home/>}>
@@ -34,7 +34,7 @@ import Menu from "./pages/Menu";
 
 
 
-</Router>
+</HashRouter>
     </>
   )
 

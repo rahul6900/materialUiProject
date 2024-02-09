@@ -1,8 +1,8 @@
 {
   "name": "material",
+  "homepage": "http://rahul6900.github.io/materialUiProject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rahul6900.github.io/materialui-project",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
