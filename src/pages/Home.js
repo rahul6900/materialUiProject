@@ -8,7 +8,7 @@ import { Box, Container } from '@mui/system';
 export const Home = () => {
   return (
     <Layout>
-    <Typography variant='div' className='Home' style={{backgroundImage:`url(${bannerimg})`}}>
+    <Typography variant='div' className='Home' style={{backgroundImage:`url(${bannerimg})`,backgroundSize:"100% 100%"}}>
 
 <div className='headerContent'>
   <h1>Food Website</h1>
